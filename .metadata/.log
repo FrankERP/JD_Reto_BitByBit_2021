@@ -1,0 +1,21 @@
+!SESSION 2021-11-22 15:42:12.797 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-22 15:43:45.571
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-22 15:43:45.640
+!MESSAGE Log4j initialized with config file D:\School\sistemas_embebidos\Reto\JD_Reto_BitByBit_2021\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-22 15:44:00.051
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-22 15:48:48.921
+!MESSAGE Indexed 'Projecto_Pre_CM4' (24 sources, 85 headers) in 3.33 sec: 7,743 declarations; 54,287 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0032%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-22 15:48:52.829
+!MESSAGE Indexed 'Projecto_Pre_CM7' (32 sources, 96 headers) in 3.88 sec: 11,618 declarations; 101,865 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0018%)

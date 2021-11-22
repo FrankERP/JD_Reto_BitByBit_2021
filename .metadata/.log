@@ -19,3 +19,353 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-11-22 15:48:52.829
 !MESSAGE Indexed 'Projecto_Pre_CM7' (32 sources, 96 headers) in 3.88 sec: 11,618 declarations; 101,865 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0018%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:55:42.457
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:55:42.463
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:55:42.679
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:55:42.679
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:55:43.113
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:55:43.114
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:55:43.115
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:55:43.116
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:55:43.226
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:55:43.227
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:55:43.407
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:55:43.407
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:55:43.408
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:55:43.408
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:56:08.819
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:56:08.820
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:56:08.820
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:56:08.821
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:57:29.704
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:57:29.705
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:57:29.705
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 15:57:29.706
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-22 16:01:22.923
+!MESSAGE Indexed 'Proyecto_Pre_v2_CM7' (31 sources, 95 headers) in 4.4 sec: 10,087 declarations; 74,780 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0024%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-22 16:01:26.228
+!MESSAGE Indexed 'Proyecto_Pre_v2_CM4' (28 sources, 92 headers) in 3.3 sec: 9,201 declarations; 66,960 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0026%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 16:18:20.550
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 16:18:20.550
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 16:18:20.586
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 16:18:20.586
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 16:18:20.807
+!MESSAGE Error: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-22 16:18:20.809
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.core.pdom.PDOMProxy cannot be cast to class org.eclipse.cdt.internal.core.index.IWritableIndexFragment (org.eclipse.cdt.internal.core.pdom.PDOMProxy and org.eclipse.cdt.internal.core.index.IWritableIndexFragment are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @73d62b5)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:99)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1249)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.createIndex(PDOMIndexerTask.java:206)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:536)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
